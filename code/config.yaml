@@ -1,0 +1,22 @@
+## General configuration
+
+### Hardware ###
+hardware:
+  number_input: 6
+  in0: "gate"
+  in1: "gate"
+  in2: "cv"
+  in3: "cv"
+  in4: "cv"
+  in5: "cv"
+  number_cpu: 4
+
+### Model ###
+model:
+  name: "faderave"
+
+### Audio ###
+audio:
+  sr: 22050
+  samples: 301
+  buffers: 301
